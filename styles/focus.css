@@ -1,0 +1,15 @@
+.card__like-button:focus,
+.floopy_dialog-ok_button:focus,
+.floopy_button:focus {
+  outline: none;
+  box-shadow: 2px 2px 0 #000;
+  transition: box-shadow 0.3s ease;
+}
+
+.card__icon-button:focus {
+  outline: none;
+}
+
+.card__icon-button:focus-visible {
+  outline: 2px solid var(--accent-color);
+}
