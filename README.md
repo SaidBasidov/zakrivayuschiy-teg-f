@@ -1,1 +1,1 @@
-https://saidbasidov.github.io/zakrivayuschiy-teg-f/index.html
+https://github.com/SaidBasidov/zakrivayuschiy-teg-f
