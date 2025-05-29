@@ -1,20 +1,16 @@
-.card__like-button::before,
-.floopy_dialog-ok_button::before,
-.floopy_button::before {
+.button_style::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  transform: translateX(-100%);
+  transform: translateX(-101%);
   background: #000;
   transition: transform 0.5s ease-in-out;
 }
 
-.card__like-button:hover::before,
-.floopy_dialog-ok_button:hover:before,
-.floopy_button:hover::before {
+.button_style:hover::before {
   transform: scaleX(1);
 }
 
